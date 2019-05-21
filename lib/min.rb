@@ -11,5 +11,5 @@ require 'pry'
 def get_the_min(groceries)
   
   sorted = groceries.sort {|a, b| a <=> b}
- sorted.min.flatten
+ sorted.min
 end
