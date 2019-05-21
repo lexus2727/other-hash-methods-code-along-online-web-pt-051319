@@ -9,5 +9,9 @@ require 'pry'
 # }
 
 def get_the_min(groceries)
-  #code your solution here!
+ #orted = groceries.sort 
+ #sorted = groceries.sort_by {|groceries| groceries}
+ #binding.pry
+ #sorted.min
+ groceries.values.flatten.min
 end
