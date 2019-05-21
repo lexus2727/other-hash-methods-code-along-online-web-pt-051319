@@ -10,6 +10,6 @@ require 'pry'
 
 def get_the_min(groceries)
   
-  sorted = groceries.sort {|a, b| a <=> b}
+ sorted = groceries.sort_by {|groceries| groceries}
  sorted.min
 end
